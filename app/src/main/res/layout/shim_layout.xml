@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/video_thumb"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/thumb2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_place" />
+
+    <ImageView
+        android:id="@+id/thumb2"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/thumb3"
+        app:layout_constraintStart_toEndOf="@id/video_thumb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_place" />
+
+    <ImageView
+        android:id="@+id/thumb3"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumb2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_place" />
+
+
+    <ImageView
+        android:id="@+id/thumb4"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/thumb5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/video_thumb"
+        app:srcCompat="@drawable/ic_place" />
+
+
+    <ImageView
+        android:id="@+id/thumb5"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@id/thumb6"
+        app:layout_constraintStart_toEndOf="@+id/thumb4"
+        app:layout_constraintTop_toBottomOf="@+id/thumb2"
+        app:srcCompat="@drawable/ic_place" />
+
+
+    <ImageView
+        android:id="@+id/thumb6"
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/thumb5"
+        app:layout_constraintTop_toBottomOf="@id/thumb3"
+        app:srcCompat="@drawable/ic_place" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

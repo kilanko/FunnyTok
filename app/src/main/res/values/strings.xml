@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Funny TikTok</string>
+    <string name="download_menu">Download Video</string>
+
+
+    <string name="player">Video Player</string>
+    <string name="saving">Downloading...</string>
+    <string name="start">Download Started</string>
+    <string name="menu_save">Downloads</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_refresh">Refresh</string>
+
+    <string name="none">No Saved Videos</string>
+    <string name="my">Downloads</string>
+</resources>
